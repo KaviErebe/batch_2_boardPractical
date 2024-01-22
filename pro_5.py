@@ -35,7 +35,7 @@ while True:
     elif ch== 4:  
         if l == []:
             print("stack empty")
-        for i in range(len(l)-1,-1,-1):
+        for i in range(len(l)):
             print(l[i])
     elif ch == 5:
         break

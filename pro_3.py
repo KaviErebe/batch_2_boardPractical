@@ -15,9 +15,10 @@ while True:
     print("Record has been added.")
     ch=int(input("Want to insert More records?(enter 1 to exit this program):"))
     if ch == 1:
+        f.close()
         break
     
-f.close()
+
 
 f = open("students.csv")
 data = csv.DictReader(f)

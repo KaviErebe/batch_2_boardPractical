@@ -13,10 +13,10 @@ a=[ ]
 
 n=int(input("How many values:"))
 
-print("Enter",n,"values:") 
+ 
 
 for i in range(n):
-    a.append(int(input()))
+    a.append(int(input('enter value:')))
 
 print("List values before shifting:",a)
 shift(a,n)
